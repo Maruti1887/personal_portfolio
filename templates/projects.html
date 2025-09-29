@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2 class="text-center mb-4">My Projects</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        
+        <!-- Project 1 -->
+        <div class="col">
+            <div class="card h-100 shadow">
+                <div class="card-body">
+                    <h5 class="card-title">🐟 Flask Fish Selling Platform</h5>
+                    <p class="card-text">
+                        Online platform for vendors and customers to manage fish listings, orders, 
+                        and vendor operations. Built with <b>Python, Flask, HTML, CSS, SQLite</b>.
+                    </p>
+                    <a href="https://github.com/Maruti1887/flaskfishselling" target="_blank" class="btn btn-primary">
+                        <i class="bi bi-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col">
+            <div class="card h-100 shadow">
+                <div class="card-body">
+                    <h5 class="card-title">💰 Expense Tracker</h5>
+                    <p class="card-text">
+                        Personal finance manager with user authentication, CRUD transactions, 
+                        and a responsive dashboard. Built with <b>Python, Django, HTML, CSS</b>.
+                    </p>
+                    <a href="https://github.com/Maruti1887/ExpenseTracker" target="_blank" class="btn btn-primary">
+                        <i class="bi bi-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col">
+            <div class="card h-100 shadow">
+                <div class="card-body">
+                    <h5 class="card-title">🚌 Move Smart – Real-Time Bus Tracking</h5>
+                    <p class="card-text">
+                        Crowdsourced bus tracking system showing live locations and estimated arrivals. 
+                        Built with <b>Python, Django, JavaScript, MySQL</b>.
+                    </p>
+                    <a href="#" class="btn btn-secondary disabled">
+                        <i class="bi bi-github"></i> GitHub (Private / Not Available)
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}
