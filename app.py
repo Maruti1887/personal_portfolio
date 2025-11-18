@@ -44,6 +44,11 @@ def projects():
 def experience():
     return render_template("experience.html", title="Experience")
 
+@app.route('/certification')
+def certification():
+    return render_template('certification.html', title="Certification")
+
+
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
     if request.method == "POST":
